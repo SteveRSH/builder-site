@@ -1,0 +1,155 @@
+*{
+padding: 0;
+width: auto;
+}
+
+body{
+    margin: 0;
+}
+
+/*-------------------MAIN PAGE-----------------*/
+
+.dropdown{
+    text-align: right;
+    margin-right: 5%;   
+}
+
+.dropbtn {
+  background-color: #505750;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: right;
+margin-left: 90%; 
+    
+/*  position: absolute; -> removed in order to show drop down menu on right side of screen*/ 
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;   
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.main-page{
+background-image: url(../img/exterior/randomImageHome.jpg);
+background-repeat: no-repeat;
+background-size: 1450px;
+width: 1450px;
+height: 900px;   
+}
+
+.main-page h1, h3{
+    text-align: center;
+}
+
+.main-page h1{
+    padding-top: 50px;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.main-page h3{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.builder-name{
+   float: left;
+}
+
+/*----------------ABOUT US-----------------*/
+.p-about-us, .p-our-team{
+    text-align: justify;
+    margin: 0 5%;   
+}
+
+.col h3{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+/*----------------INTERIOR / EXTERIOR-----------------*/
+
+.exterior, .interior{
+    margin-top: 1%;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.column {
+  float: left;
+  width: 32.3%;
+  padding: 5px;   
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+/*  display: table;*/
+}
+
+img{
+    height: 309px;
+}
+
+@media screen and (max-width: 500px) {
+  .column{
+    width: 100%;
+  }
+}
+
+/*---------------CONTACT INFORMATION-----------*/
+.contact-info th{
+    float: left;
+    padding-right: 25%;
+}
+
+.contact-info{   
+    margin-left: 1%;  
+}
+
+form.form-example {
+/*    display: table;*/
+     
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 1px;
+    padding-right: 25%;
+}
+
+label {
+    padding-right: 25%;
+}
+
+
+
+
+
+
+
+
